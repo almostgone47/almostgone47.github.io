@@ -1,0 +1,233 @@
+*{
+		margin:0;
+		padding:0;
+		font-family:sans-serif;
+		color:#fff;
+
+	}
+
+	#header{
+
+		background-color:black;
+		height:40px;
+		position: fixed;
+		top:0;
+		width:100%;
+
+	}
+
+	#logo{
+
+		display: inline-block;
+		float: left;
+		margin-left:40px; 
+
+	}
+
+	ul{
+
+		margin-right: 40px;
+		padding:10px;
+		float:right;
+
+	}
+
+	li{
+
+		display:inline;
+		padding: 15px;
+		font-weight: bold;	
+
+	}
+
+	li:hover{
+
+		background-color:#06C2D4;
+		transition: .3s;
+	}
+
+	#main {
+		background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqlWxKxhmGUpPTtJL2da8DantMSK6JnxIFerCprFauoUZaIbk");
+		background-size:cover;
+		height:650px;
+		position: relative;
+		
+	}
+
+	#it-image{
+
+		position:relative;
+		left: 180px;
+		top:210px;
+		height:170px;
+
+	}
+
+	#it-image:hover{
+
+		transform: rotate(90deg);
+
+	}
+
+	#main-content{
+
+		text-align:left;
+		height: 150px;
+		width:550px;
+		position:absolute;
+		top:200px;
+		left:400px;
+
+	}
+
+	a{
+
+		text-decoration: none;
+		color:#fff;
+
+	}
+
+	#schedule{
+
+		position:relative;
+		top: 70px;
+		left:170px;
+
+	}
+
+	#type-blinker{
+
+		height: 11px;
+		width:9px;
+		background-color:#fff;
+		position:absolute;
+		bottom:6px;
+		left:190px;
+		animation: pulse 1s infinite;
+
+	}
+
+	@keyframes pulse{
+
+		from{
+			background-color:blue;
+		}
+		to{
+			background-color:white;
+		}
+
+	}
+
+	#footer{
+
+		background-color:black;
+		width:100%;
+		height:60px;
+	}
+
+	#face-link{
+
+		float:right;
+		position:relative;
+		right: 20px;
+		bottom: 10px;
+
+	}
+
+	#copy{
+
+		position:relative;
+		top:20px;
+		left:20px;
+		font-size:15px;
+
+	}
+
+	#about-content{
+
+		position:relative;
+		top:200px;
+		margin: 0 0 0px 0;
+		padding: 0 0 0px 0;
+		text-align: center;
+		font-size:30px;
+	}
+
+	#vid-clip{
+
+		
+		width:100%;
+		position: relative;
+		top:379px;
+		left:512px;
+		
+
+	}
+
+	#about-footer{
+
+		position:absolute;
+		bottom:-60px;
+		background-color:black;
+		width:100%;
+		height:60px;
+		
+	}
+
+	#contact-main{
+
+		background-image:url("cyber-image.jpg");
+		background-size:cover;
+		height:630px;
+		text-align: center;
+		display:flex;
+		flex-direction: column;
+		justify-content:center;
+		align-items:center;
+		font-weight: bold;
+
+	}
+
+	#icon-box{
+
+		position:absolute;
+		bottom:100px;
+
+	}
+
+	.icons{
+
+		margin:20px;
+		height:25px;
+		animation-name: pump;
+		animation-duration: .7s;
+		animation-iteration-count: infinite;
+
+	}
+
+	@keyframes pump{
+
+		from{
+			height:60px;
+		}
+		to{
+			height:50px;
+		}
+
+	}
+
+	#schedule h3{
+
+		font-family: 'Courier', monospace;
+		font-smooth: never;
+		-webkit-font-smoothing : none;
+
+	}
+
+	th, td{
+
+		font-family: 'Courier', monospace;
+		font-smooth: never;
+		-webkit-font-smoothing : none;
+
+	}
